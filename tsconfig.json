@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "ES2020"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "vaul@*": ["node_modules/vaul"],
+      "sonner@*": ["node_modules/sonner"],
+      "recharts@*": ["node_modules/recharts"],
+      "react-resizable-panels@*": ["node_modules/react-resizable-panels"],
+      "react-hook-form@*": ["node_modules/react-hook-form"],
+      "react-day-picker@*": ["node_modules/react-day-picker"],
+      "next-themes@*": ["node_modules/next-themes"],
+      "lucide-react@*": ["node_modules/lucide-react"],
+      "input-otp@*": ["node_modules/input-otp"],
+      "embla-carousel-react@*": ["node_modules/embla-carousel-react"],
+      "cmdk@*": ["node_modules/cmdk"],
+      "class-variance-authority@*": ["node_modules/class-variance-authority"],
+      "@radix-ui/*": ["node_modules/@radix-ui/*"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src", "index.html"]
+}
