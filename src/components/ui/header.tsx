@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '@/assets/YAYAONE.png';
 
 interface NavBarProps {
   onSectionChange?: (section: string) => void;
@@ -66,7 +67,9 @@ const NavBar: React.FC<NavBarProps> = ({ onSectionChange }) => {
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <a href="/" onClick={closeMobileMenu}>YAYA ONE</a>
+          <a href="/" onClick={closeMobileMenu}>
+            <img src={logo} alt="YAYA ONE" className="h-10" />
+          </a>
         </div>
 
         {/* Desktop Menu */}

@@ -3,9 +3,10 @@
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
-  export default defineConfig({
+  export default defineConfig(({ command }) => ({
+    // Use repository-relative base for production (GitHub Pages), but root for dev server
+    base: command === 'build' ? '/YAYAONE/' : '/',
     plugins: [react()],
-    base: './',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -58,4 +59,4 @@
       port: 3000,
       open: true,
     },
-  });
+  }));
