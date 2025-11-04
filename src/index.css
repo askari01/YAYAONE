@@ -1546,7 +1546,7 @@ html {
   background-color: #2d4563;
   color: #fff;
   z-index: 1000;
-  font-family: 'Inter', sans-serif; /* Or your preferred font */
+  font-family: 'Inter', sans-serif;
   transition: background-color 0.3s ease;
 }
 
@@ -1588,7 +1588,7 @@ html {
 }
 
 .navbar-link:hover {
-  color: #faf8ed; /* Blue accent, adjust to match site */
+  color: #faf8ed;
   border-bottom: 2px solid #faf8ed;
 }
 
@@ -1650,9 +1650,9 @@ html {
   transition: background-color 0.3s ease;
 }
 
-.navbar-button:hover {
+/* .navbar-button:hover {
   background-color: #faf8ed;
-}
+} */
 
 .navbar-hamburger {
   display: none;
@@ -1674,7 +1674,7 @@ html {
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: #000;
+  background-color: #2d4563;
   list-style: none;
   padding: 20px 0;
   margin: 0;
@@ -1682,12 +1682,13 @@ html {
 }
 
 .mobile-item {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #585f66;
+  margin-left: 10px;
 }
 
 .mobile-dropdown {
   position: static !important;
-  background-color: #1a1a1a;
+  background-color: #2d4563;
   margin-left: 20px;
   opacity: 1;
   visibility: visible;

@@ -46,7 +46,7 @@ const NavBar: React.FC<NavBarProps> = ({ onSectionChange }) => {
     { label: 'Services', id: 'services' },
     { label: 'Solutions', id: 'solutions' },
     { label: 'About Us', id: 'about' },
-    // { label: 'Contact', id: 'contact' },
+    { label: 'Contact', id: 'contact' }
   ];
 
   // Contact email configuration — change as needed
@@ -130,7 +130,7 @@ const NavBar: React.FC<NavBarProps> = ({ onSectionChange }) => {
             </a>
           </li>
         ))}
-        <li className="mobile-utility">
+        {/* <li className="mobile-utility">
           <a
             href="#contact"
             onClick={(e) => {
@@ -140,7 +140,7 @@ const NavBar: React.FC<NavBarProps> = ({ onSectionChange }) => {
           >
             Contact Us
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

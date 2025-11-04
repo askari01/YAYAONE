@@ -144,7 +144,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
-              <img src={logoStacked} alt="YAYA ONE" className="h-10" />
+              <img src={logoStacked} alt="YAYA ONE" className="h-16 md:h-20" />
             <p className="text-white/80">
               Technology made simple. Business made stronger.
             </p>
